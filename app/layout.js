@@ -11,7 +11,7 @@ import StairTransition from "@/components/StairTransition";
 const JetBrainsMono = JetBrains_Mono({
   subsets: ["latin"],
   weight: ["100", "200", "400", "500", "500", "600", "700", "800"],
-  variable: "--font-jetbrainsMono",
+  variable: "--font-jetBrainsMono",
 });
 export const metadata = {
   title: "Create Next App",
