@@ -23,7 +23,7 @@ import { motion } from "framer-motion";
 const about = {
   title: "About me",
   description:
-    " I am a motivated and self-driven individual with a strong passion for technology and innovation. Proficient in full-stack web development (HTML, CSS, JavaScript, Node.js, React Native Next.js, React.js, and MongoDB as the database) with proven leadership experience and a track record of responsibility, both academically and professionally. Seeking opportunities to grow and contribute in dynamic tech environments.",
+    " I am a motivated and self-driven individual with a strong passion for technology and innovation. Proficient in full-stack web, mobile, web app development (HTML, CSS, JavaScript, Node.js, React Native Next.js, React.js, and MongoDB as the database) with proven leadership experience and a track record of responsibility, both academically and professionally. Seeking opportunities to grow and contribute in dynamic tech environments.",
   info: [
     {
       fieldName: "Name",
