@@ -60,18 +60,45 @@ const Contact = () => {
               </div>
               {/**select */}
               <Select>
-                <SelectTrigger className="w-full">
+                <SelectTrigger className="flex h-[48px] w-full items-center justify-between rounded-md border border-white/10 bg-primary px-4 py-5 text-base text-white/60 placeholder:text-white/10 focus:border-accent outline-none">
                   <SelectValue placeholder="Select a service" />
                 </SelectTrigger>
-                <SelectContent>
+                <SelectContent
+                  className="z-50 bg-[#1e1e23] border border-white/10 rounded-md shadow-md mt-2"
+                  position="popper"
+                  side="top"
+                  sideOffset={5}
+                >
                   <SelectGroup>
-                    <SelectLabel>Select a service</SelectLabel>
-                    <SelectItem value="est">Web Development</SelectItem>
-                    <SelectItem value="cst">Mobile App Development</SelectItem>
-                    <SelectItem value="mst">Web App Development</SelectItem>
+                    <SelectLabel className="text-white/40 px-4 py-2">
+                      Select a service
+                    </SelectLabel>
+                    <SelectItem
+                      value="web"
+                      className="px-4 py-2 cursor-pointer hover:bg-accent hover:text-primary text-white"
+                    >
+                      Web Development
+                    </SelectItem>
+                    <SelectItem
+                      value="mobile"
+                      className="px-4 py-2 cursor-pointer hover:bg-accent hover:text-primary text-white"
+                    >
+                      Mobile App Development
+                    </SelectItem>
+                    <SelectItem
+                      value="webapp"
+                      className="px-4 py-2 cursor-pointer hover:bg-accent hover:text-primary text-white"
+                    >
+                      Web App Development
+                    </SelectItem>
                   </SelectGroup>
                 </SelectContent>
               </Select>
+              {/*text area */}
+              <Textarea
+                className="h-[200px] "
+                placeholder="Type your message here"
+              />
             </form>
           </div>
           {/**info */}
