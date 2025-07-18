@@ -40,7 +40,7 @@ const projects = [
     ],
     image: "/assets/work/thumb2.png",
     live: "",
-    github: "",
+    github: "https://github.com/HCSButcher/Bookstore",
   },
   {
     num: "02",
@@ -62,8 +62,8 @@ const projects = [
       },
     ],
     image: "/assets/work/thumb1.png",
-    live: "",
-    github: "",
+    live: "https://project-2-1-fq45.onrender.com",
+    github: "http://github.com/HCSButcher/PROJECT-2",
   },
 
   {
@@ -81,8 +81,8 @@ const projects = [
       },
     ],
     image: "/assets/work/thumb3.png",
-    live: "",
-    github: "",
+    live: "https://portfolio-8j13.onrender.com",
+    github: "https://github.com/HCSButcher/portfolio",
   },
 ];
 
