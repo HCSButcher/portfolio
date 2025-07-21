@@ -39,9 +39,9 @@ const Contact = () => {
         opacity: 1,
         transition: { delay: 2.4, duration: 0.4, ease: "easIn" },
       }}
-      className="py-6"
+      className="py-6 min-h-screen"
     >
-      <div className="container mx-auto">
+      <div className="container mx-auto min-h-screen">
         <div className="flex flex-col xl:flex-row gap-[30px]">
           {/**form */}
           <div className="xl:h-[54%] order-2 xl:order-none ">
