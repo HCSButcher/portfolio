@@ -68,6 +68,12 @@ const experience = {
     "I have been able to complete solo projects as a form of self teaching in order to better understand the various technologies I am proficient in.",
   items: [
     {
+      project: "Kabarak University",
+      type: "IT Support",
+      description:
+        "-Performed networking duties \n-Performed maintenance of network devices \n-Assisted in repair and maintenance of computer hardware and software ",
+    },
+    {
       project: "COURSE MATERIAL REPOSITORY",
       type: "Web app",
       description:
@@ -213,7 +219,9 @@ const Resume = () => {
                           </h3>
                           <div>
                             {/**dot */}
-                            <p className="text-white/60">{item.description} </p>
+                            <p className="text-white/60 whitespace-pre-line text-muted-foreground ">
+                              {item.description}{" "}
+                            </p>
                           </div>
                         </li>
                       );

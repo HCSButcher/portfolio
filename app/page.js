@@ -5,6 +5,7 @@ import { FiDownload, fiDownload } from "react-icons/fi";
 import Social from "@/components/social";
 import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
+import Link from "next/link";
 
 const Home = () => {
   return (
@@ -23,14 +24,18 @@ const Home = () => {
             </p>
             {/**btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8 xl:mt-5  ">
-              <Button
-                variant="outline"
-                size="lg"
-                className="uppercase flex items-center gap-2 "
-              >
-                <span>Download cv</span>
-                <FiDownload className="text-xl" />
-              </Button>
+              <Link href="/RESUME.pdf" download legacyBehavior>
+                <a download>
+                  <Button
+                    variant="outline"
+                    size="lg"
+                    className="uppercase flex items-center gap-2 "
+                  >
+                    <span>Download cv</span>
+                    <FiDownload className="text-xl" />
+                  </Button>
+                </a>
+              </Link>
               <div className=" pt-0 mb-1 xl:mb-0">
                 <Social
                   containerStyles="flex gap-6 "
