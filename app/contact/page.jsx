@@ -80,10 +80,30 @@ const Contact = () => {
                 working projects.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <Input name="first_name" type="text" placeholder="First name" />
-                <Input name="last_name" type="text" placeholder="Last name" />
-                <Input name="email" type="email" placeholder="Email" />
-                <Input name="phone" type="tel" placeholder="Phone number" />
+                <Input
+                  name="first_name"
+                  type="text"
+                  placeholder="First name"
+                  required="true"
+                />
+                <Input
+                  name="last_name"
+                  type="text"
+                  placeholder="Last name"
+                  required="true"
+                />
+                <Input
+                  name="email"
+                  type="email"
+                  placeholder="Email"
+                  required="true"
+                />
+                <Input
+                  name="phone"
+                  type="tel"
+                  placeholder="Phone number"
+                  required="true"
+                />
               </div>
 
               {/* Select */}
@@ -142,6 +162,7 @@ const Contact = () => {
                 name="message"
                 className="h-[200px] focus-visible:ring-accent focus-visible:ring-1 focus-visible:ring-offset-0 disabled:cursor-not-allowed disabled:opacity-50"
                 placeholder="Type your message here"
+                required="true"
               />
               <Button size="md" className="max-w-[10rem]" type="submit">
                 Send Message
