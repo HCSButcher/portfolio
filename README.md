@@ -12,7 +12,7 @@ The site is built with **Next.js** and hosted on **Render**. It includes a conta
 ### Installation
 
 # Clone the repository
-
+git clone https://github.com/HCSButcher/portfolio.git
 
 # Navigate into the project
 cd portfolio
