@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌐 My Portfolio
 
-## Getting Started
+This is my personal developer portfolio showcasing my skills, projects, and experiences in software development.  
+The site is built with **Next.js** and hosted on **Render**. It includes a contact form integrated with **MailJS** to handle user feedback and inquiries.
 
-First, run the development server:
+## 🚀 Getting Started
 
-```bash
+### Prerequisites
+- Node.js >= 18
+- npm or yarn
+
+### Installation
+
+# Clone the repository
+
+
+# Navigate into the project
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit http://localhost:3000 to view it in the browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## ✨ Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- ⚡ Modern UI built with **Next.js**
+- 📩 Contact form powered by **EmailJS** (receives user feedback directly in email)
+- ☁️ Hosted on **Render**
+- 📊 Demonstrates understanding of **DevOps**, **system design**, and **scalable architectures**
+- ✅ Tested with **unit** and **integration tests**
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Frontend**: Next.js (React + Server Components)
+- **Email Service**: MailJS
+- **Hosting**: Render-
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+  ---
 
-## Deploy on Vercel
+## ⚙️ DevOps & System Design
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Deployment**: CI/CD pipeline with GitHub → Render auto-deploys  
+- **Monitoring & Observability**:  
+  - Logging (structured JSON logs)  
+  - Error tracking with server console + browser dev tools  
+  - Metrics and uptime monitoring (Render dashboard)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **System Design Principles Applied**:    
+  - Scalability via serverless deployment model  
+  - Fault tolerance with retries on external requests (EmailJS)  
+  - Stateless server design
+
+---
+
+## 🧪 Tests
+
+Both **unit tests** and **integration tests** were written to ensure reliability.
+
+### ✅ Unit Tests
+- Component rendering tests (React Testing Library)
+- Utility function tests (Jest)
+
+### 🔗 Integration Tests
+- EmailJS integration for contact form
+
+### 📊 Test Results
+All tests passed successfully:
+
