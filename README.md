@@ -72,3 +72,8 @@ Both **unit tests** and **integration tests** were written to ensure reliability
 ### 📊 Test Results
 All tests passed successfully:
 
+📬 Feedback
+
+If you’d like to reach out, use the contact form on the website.
+All messages are routed to my email via EmailJS.
+
