@@ -1,7 +1,7 @@
 # 🌐 My Portfolio
 
 This is my personal developer portfolio showcasing my skills, projects, and experiences in software development.  
-The site is built with **Next.js** and hosted on **Render**. It includes a contact form integrated with **MailJS** to handle user feedback and inquiries.
+The site is built with **Next.js** and hosted on **Render**. It includes a contact form integrated with **EmailJS** to handle user feedback and inquiries.
 
 ## 🚀 Getting Started
 
